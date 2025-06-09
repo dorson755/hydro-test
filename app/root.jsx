@@ -177,7 +177,7 @@ export function Layout({children}) {
 >
   Luxurious Action
 </button>
-<button class="inline-block px-4 py-2 ...">Click me</button>
+<button class="inline-block px-4 py-2">Click me</button>
 
           </Analytics.Provider>
         ) : (
