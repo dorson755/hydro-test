@@ -165,6 +165,9 @@ export function Layout({children}) {
             consent={data.consent}
           >
             <PageLayout {...data}>{children}</PageLayout>
+              <h1 class="text-3xl font-bold underline">
+    Hello world!
+  </h1>
           </Analytics.Provider>
         ) : (
           children
