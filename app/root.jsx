@@ -168,6 +168,16 @@ export function Layout({children}) {
               <h1 class="text-3xl font-bold underline">
     Hello world!
   </h1>
+  <button
+  class="px-6 py-2 rounded-[var(--radius-md)] text-black font-semibold
+         bg-[var(--gradient-gold)]
+         hover:brightness-110
+         transition ease-[var(--ease-subtle)] duration-300
+         shadow-[var(--shadow-soft)] hover:shadow-[var(--shadow-glow)]"
+>
+  Luxurious Action
+</button>
+
           </Analytics.Provider>
         ) : (
           children
