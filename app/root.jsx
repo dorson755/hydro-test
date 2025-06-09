@@ -168,16 +168,29 @@ export function Layout({children}) {
               <h1 class="text-3xl font-bold underline">
     Hello world!
   </h1>
+<div className="max-w-md mx-auto p-4">
   <button
-  class="px-6 py-2 rounded-[var(--radius-md)] text-black font-semibold
-         bg-[var(--gradient-gold)]
-         hover:brightness-110
-         transition ease-[var(--ease-subtle)] duration-300
-         shadow-[var(--shadow-soft)] hover:shadow-[var(--shadow-glow)]"
->
-  Luxurious Action
-</button>
-<button class="inline-block px-4 py-2">Click me</button>
+    className="
+      inline-block
+      px-6 py-2
+      rounded-[var(--radius-md)]
+      text-black font-semibold
+      bg-[var(--gradient-gold)]
+      hover:brightness-110
+      transition ease-[var(--ease-subtle)] duration-300
+      shadow-[var(--shadow-soft)] hover:shadow-[var(--shadow-glow)]
+    "
+  >
+    Luxurious Action
+  </button>
+
+  <button
+    className="inline-block px-4 py-2 mt-4 bg-white text-black rounded"
+  >
+    Click me
+  </button>
+</div>
+
 
           </Analytics.Provider>
         ) : (
